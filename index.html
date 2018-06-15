@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Oli :: OperatingSystem</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="a7/css/main.css">
+
+		<script type="text/javascript" src="a7/js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="a7/js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="a7/js/main.js"></script>
+	</head>
+	<body>
+		<div id="startOS">
+			<p>Démarrage en cours <span class="dot3"></span></p>
+		</div>
+		<div id="login">
+			<h2>Connexion</h2>
+			<form>
+				<input type="text" class="loginUsername" placeholder="Login"><br />
+				<input type="password" class="loginPassword" placeholder="******"><br />
+				<button id="loginButton">Entrer</button>
+			</form>
+			
+		</div>
+		<div id="container">
+			<div id="toolBar">
+				<img src="https://cdn.pixabay.com/photo/2013/03/30/00/09/operating-system-97851_960_720.png" class="i30x30">
+				<span>OliSystem :: windowTitle || sessionName</span>
+				<span class="time"></span>
+			</div>
+
+
+			<div id="icons">
+				<div>
+					<img class="wIcon" src="a7/img/rico.jpg" alt="wServers">
+					<p>Serveurs</p>
+				</div>
+				<div>
+					<img class="wIcon" src="a7/img/rico.jpg" alt="wMissions">
+					<p>Missions</p>
+				</div>
+				<div>
+					<img class="wIcon" src="a7/img/rico.jpg" alt="wPlayers">
+					<p>Joueurs</p>
+				</div>
+				<div>
+					<img class="wIcon" src="a7/img/rico.jpg" alt="wTest3">
+					<p>Admin</p>
+				</div>
+			</div>
+
+
+			<div id="windows">
+				<div class="window" id="wServers">
+					<div class="wBar">
+						<ul>
+							<li class="wBarTitle">Serveurs</li>
+							<li class="wBarClose">X</li>
+						</ul>
+					</div>
+					<div class="wContent"></div>
+				</div>
+
+				<div class="window" id="wMissions">
+					<div class="wBar">
+						<ul>
+							<li class="wBarTitle">Missions</li>
+							<li class="wBarClose">X</li>
+						</ul>
+					</div>
+					<div class="wContent"></div>
+				</div>
+
+				<div class="window" id="wPlayers">
+					<div class="wBar">
+						<ul>
+							<li class="wBarTitle">Joueurs</li>
+							<li class="wBarClose">X</li>
+						</ul>
+					</div>
+					<div class="wContent"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
